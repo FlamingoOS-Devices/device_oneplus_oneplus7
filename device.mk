@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     OnePlus7SettingsProvider \
     OnePlus7SystemUI
 
+# NoCutout
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
