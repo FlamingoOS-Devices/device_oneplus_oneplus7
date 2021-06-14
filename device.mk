@@ -22,6 +22,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
 
+# NoCutout
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Stock fingerprint for ARCore
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.stock.build.fingerprint=OnePlus/OnePlus7/OnePlus7:12/SKQ1.211113.001/P.202210120500:user/release-keys
