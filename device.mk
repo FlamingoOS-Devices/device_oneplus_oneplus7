@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
     OPlus7SettingsProvider \
     OPlus7SystemUI
 
+# NoCutout
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Bluetooth
 PRODUCT_VENDOR_PROPERTIES += \
     bluetooth.device.default_name=OnePlus 7
