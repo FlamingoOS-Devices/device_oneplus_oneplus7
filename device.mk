@@ -13,7 +13,8 @@ AOSPA_BUILDTYPE := RELEASE
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAOnePlus7SystemUI \
+    FlamingoOnePlus7Frameworks \
+    FlamingoOnePlus7SystemUI \
     OnePlus7Frameworks \
     OnePlus7SettingsProvider \
     OnePlus7SystemUI
