@@ -12,6 +12,9 @@ $(call inherit-product, vendor/oneplus/oneplus7/oneplus7-vendor.mk)
 # Gapps 
 GAPPS_BUILD=true
 
+# Mark as official build
+OFFICIAL_BUILD := true
+
 # Overlays
 PRODUCT_PACKAGES += \
     FlamingoOnePlus7Frameworks \
