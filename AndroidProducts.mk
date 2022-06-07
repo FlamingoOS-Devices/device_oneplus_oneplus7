@@ -3,4 +3,4 @@ PRODUCT_MAKEFILES += \
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
-    flamingo_oneplus7-userdebug \
+    flamingo_oneplus7-userdebug
