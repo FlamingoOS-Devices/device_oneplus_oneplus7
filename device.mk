@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     FlamingoOnePlus7Frameworks \
     FlamingoOnePlus7SystemUI \
     OnePlus7Frameworks \
+    OnePlus7Settings \
     OnePlus7SettingsProvider \
     OnePlus7SystemUI
 
