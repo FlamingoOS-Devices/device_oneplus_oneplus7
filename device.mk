@@ -12,6 +12,10 @@ $(call inherit-product, vendor/oneplus/oneplus7/oneplus7-vendor.mk)
 # Gapps 
 GAPPS_BUILD=true
 
+# Oneplus Apps
+TARGET_SHIP_OOSCAM := true
+TARGET_SHIP_OOSGALLERY := true
+
 # Mark as official build
 OFFICIAL_BUILD := true
 
