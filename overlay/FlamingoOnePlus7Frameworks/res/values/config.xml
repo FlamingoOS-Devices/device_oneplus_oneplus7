@@ -24,6 +24,7 @@
         <item>com.android.vending</item>
         <!-- Gallery-->
         <item>com.google.android.apps.photos</item>
+        <item>com.oneplus.gallery</item>
         <!-- Gmail -->
         <item>com.google.android.gm</item>
         <!-- Youtube -->
