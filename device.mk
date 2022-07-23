@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
 
 # Stock fingerprint for ARCore
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.stock.build.fingerprint=OnePlus/OnePlus7_EEA/OnePlus7:11/RKQ1.201022.002/2204061052:user/release-keys
+    ro.stock.build.fingerprint=OnePlus/OnePlus7_CH/OnePlus7:11/RKQ1.201022.002/2206171339:user/release-keys
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
