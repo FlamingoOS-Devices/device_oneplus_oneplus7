@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
     OnePlus7Frameworks \
     OnePlus7Settings \
     OnePlus7SettingsProvider \
-    OnePlus7SystemUI
+    OnePlus7SystemUI \
+    AlertSliderOverlay
 
 # NoCutout
 PRODUCT_PACKAGES += \
