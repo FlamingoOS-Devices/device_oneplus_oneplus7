@@ -15,10 +15,6 @@ GAPPS_BUILD=true
 # Oneplus Apps
 TARGET_SHIP_OOSCAM := true
 
-ifeq ($(GAPPS_BUILD),true)
-    TARGET_SHIP_OOSGALLERY := true
-endif
-
 # Mark as official build
 OFFICIAL_BUILD := true
 
