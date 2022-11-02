@@ -16,5 +16,8 @@ TARGET_SCREEN_DENSITY := 420
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_X := 660
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_Y := 130
 
+# Firmware
+-include vendor/oneplus/firmware/BoardConfigVendor.mk
+
 # Include the proprietary files BoardConfig.
 -include vendor/oneplus/oneplus7/BoardConfigVendor.mk
