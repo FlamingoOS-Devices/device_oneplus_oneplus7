@@ -8,18 +8,21 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from guacamoleb device
-$(call inherit-product, device/oneplus/guacamoleb/device.mk)
+# Inherit from oneplus7 device
+$(call inherit-product, device/oneplus/oneplus7/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from the FLAMINGO configuration.
+$(call inherit-product, vendor/flamingo/target/product/flamingo.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_guacamoleb
-PRODUCT_DEVICE := guacamoleb
+PRODUCT_NAME := flamingo_oneplus7
+PRODUCT_DEVICE := oneplus7
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := GM1901
 PRODUCT_BRAND := OnePlus
+
+# Boot animation resolution.
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_SYSTEM_NAME := OnePlus7
 PRODUCT_SYSTEM_DEVICE := OnePlus7
