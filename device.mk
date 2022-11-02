@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml
 
 PRODUCT_PACKAGES += \
+    AlertSliderOverlay \
     FlamingoOPlus7Frameworks \
     FlamingoOPlus7SystemUI \
     OPlus7Settings \
