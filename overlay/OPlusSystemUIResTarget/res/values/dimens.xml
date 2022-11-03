@@ -8,11 +8,13 @@
     <!-- Height of the status bar header bar when on Keyguard -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
+    <dimen name="rounded_corner_content_padding">18dp</dimen>
+
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">48px</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">28px</dimen>
+    <dimen name="status_bar_padding_end">16dp</dimen>
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
@@ -23,4 +25,7 @@
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">860px</dimen>
 
+    <!-- Location on the screen of the center of the physical volume up/down buttons. -->
+    <dimen name="physical_volume_up_button_center_screen_location_y">760px</dimen>
+    <dimen name="physical_volume_down_button_center_screen_location_y">890px</dimen>
 </resources>
