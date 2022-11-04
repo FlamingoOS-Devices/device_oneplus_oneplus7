@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     OPlus7SettingsProvider \
     OPlus7SystemUI
 
+# Bluetooth
+PRODUCT_VENDOR_PROPERTIES += \
+    bluetooth.device.default_name=OnePlus 7
+
 # Stock fingerprint for ARCore
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.stock.build.fingerprint=OnePlus/OnePlus7/OnePlus7:12/SKQ1.211113.001/P.202210120500:user/release-keys
