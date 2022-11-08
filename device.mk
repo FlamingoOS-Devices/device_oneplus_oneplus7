@@ -14,14 +14,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
-    OPlusFrameworksResTarget \
-    OPlusSettingsProviderResTarget \
-    OPlusSystemUIResTarget
+    AlertSliderOverlay \
+    FlamingoOPlus7Frameworks \
+    FlamingoOPlus7SystemUI \
+    OPlus7Frameworks \
+    OPlus7Settings \
+    OPlus7SettingsProvider \
+    OPlus7SystemUI
 
 # Stock fingerprint for ARCore
 PRODUCT_SYSTEM_PROPERTIES += \
