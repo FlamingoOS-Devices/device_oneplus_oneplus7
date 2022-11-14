@@ -14,9 +14,6 @@ $(call inherit-product, device/oneplus/oneplus7/device.mk)
 # Inherit from the FLAMINGO configuration.
 $(call inherit-product, vendor/flamingo/target/product/flamingo.mk)
 
-# Inherit OnePlus firmware
-$(call inherit-product, vendor/oneplus/firmware/Android.mk)
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := flamingo_oneplus7
 PRODUCT_DEVICE := oneplus7
